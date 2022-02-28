@@ -1,3 +1,4 @@
+/* globale styles */
 *,
 *::after,
 *::before {
@@ -6,7 +7,13 @@
 }
 body {
     box-sizing: inherit;
+    background-color: rgb(255, 96, 255);
 }
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+/* header, nav styles */
 header {
     text-align: center;
 }
@@ -18,7 +25,35 @@ nav ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 main h1 {
     text-align: center;
 }
+/* section styles */
+section {
+    width: 95%;
+    margin: auto;
+}
+h2 {
+    text-align: center;
+    padding: 1rem;
+}
+section ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
