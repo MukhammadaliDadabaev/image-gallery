@@ -8,6 +8,7 @@
 body {
     box-sizing: inherit;
     background-color: rgb(255, 96, 255);
+    font-family: sans-serif;
 }
 a {
     text-decoration: none;
@@ -45,9 +46,24 @@ section ul {
     align-items: center;
     flex-wrap: wrap;
 }
-
-
-
+/* footer styles */
+footer {
+    width: 90%;
+    margin: 1rem auto;
+}
+footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+p {
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #002b10;
+    color: #fff;
+}
 
 
 
